@@ -8,8 +8,7 @@ import java.util.Scanner;
 
 public class FunKw {
 	
-	
-	public static void main(String[] args) throws FileNotFoundException {
+	public void liczDelte() throws FileNotFoundException {
 		int a = 0, b = 0,c = 0;
 		double delta = 0, x1 = 0, x2 = 0, x3 = 0 ;
 		String nazwaPliku = "" ;
@@ -53,7 +52,7 @@ public class FunKw {
         }
 		
 		else{
-            delta=b*b-4*a*c;
+            delta = b*b-4*a*c;
 		
             
          if (delta<0){
@@ -90,6 +89,9 @@ public class FunKw {
          
 }
 }
+	public static int multiple(int firstSlc, int secondSlc) {
+        return firstSlc * secondSlc;
+    }
 }
 
 
