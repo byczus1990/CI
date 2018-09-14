@@ -1,4 +1,4 @@
-package funkcjaKwadratowa;
+package main.java;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -56,13 +56,13 @@ public class FunKw {
 		
             
          if (delta<0){
-                System.out.println("Brak rozwi¹zañ.");
+                System.out.println("Brak rozwi¹zan");
             }
          if(delta==0){
         	 	
         	 	x3 = (-b/(2*a));
                 
-        	 	System.out.println("Równanie ma 1 pierwiastek, x1 = " + x3 );
+        	 	System.out.println("Rownanie ma 1 pierwiastek, x1 = " + x3 );
             
                        
                 PrintWriter pw = new PrintWriter(nazwaPliku);

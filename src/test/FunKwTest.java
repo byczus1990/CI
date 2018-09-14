@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import funkcjaKwadratowa.FunKw;
+import main.java.FunKw;
 
 class FunKwTest {
 

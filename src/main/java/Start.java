@@ -1,4 +1,4 @@
-package funkcjaKwadratowa;
+package main.java;
 
 import java.io.FileNotFoundException;
 
