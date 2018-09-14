@@ -10,7 +10,7 @@ import funkcjaKwadratowa.FunKw;
 class DivTest {
 
 	@Test
-	public void multiplicationTest() {
+	public void divisionTest() {
 	
 		 int result = FunKw.division(4,2);
 	        int expectedResult = 3;
