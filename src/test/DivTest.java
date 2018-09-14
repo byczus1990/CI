@@ -13,7 +13,7 @@ class DivTest {
 	public void divisionTest() {
 	
 		 int result = FunKw.division(4,2);
-	        int expectedResult = 3;
+	        int expectedResult = 2;
 	        assertEquals(result, expectedResult);
 	        
 	}
