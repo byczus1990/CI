@@ -92,6 +92,14 @@ public class FunKw {
 	public static int multiple(int firstSlc, int secondSlc) {
         return firstSlc * secondSlc;
     }
+	public static int division(int firstSlc, int secondSlc) {
+		if (secondSlc == 0) {
+			System.out.println("nie dzielimy przez 0");
+            System.exit(0);
+			
+		}
+        return firstSlc / secondSlc;
+    }
 }
 
 
