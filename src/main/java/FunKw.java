@@ -56,7 +56,7 @@ public class FunKw {
 		
             
          if (delta<0){
-                System.out.println("Brak rozwi¹zan");
+                System.out.println("Brak rozwiazan");
             }
          if(delta==0){
         	 	
